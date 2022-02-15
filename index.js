@@ -5,7 +5,7 @@ const router = require('./routes/index');
 
 const app = express(); 
 const PORT = 3001; 
-const uri = "mongodb+srv://skbalahere:Kayal%4081308@cluster0.hkoxv.mongodb.net/advanced?retryWrites=true&w=majority";
+const uri = "mongodb+srv://username:password@cluster0.hkoxv.mongodb.net/advanced?retryWrites=true&w=majority";
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true })); 
